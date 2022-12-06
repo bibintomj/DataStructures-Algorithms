@@ -17,5 +17,8 @@
    <Group
       location = "group:Algorithms"
       name = "Algorithms">
+      <FileRef
+         location = "group:TowerOfHanoi.playground">
+      </FileRef>
    </Group>
 </Workspace>
