@@ -20,5 +20,8 @@
       <FileRef
          location = "group:TowerOfHanoi.playground">
       </FileRef>
+      <FileRef
+         location = "group:BinarySearch.playground">
+      </FileRef>
    </Group>
 </Workspace>
