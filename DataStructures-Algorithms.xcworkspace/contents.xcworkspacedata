@@ -5,18 +5,21 @@
       location = "group:DataStructures"
       name = "DataStructures">
       <FileRef
-         location = "group:Stack.swift">
+         location = "group:LinkedList.swift">
       </FileRef>
       <FileRef
          location = "group:Queue.swift">
       </FileRef>
       <FileRef
-         location = "group:LinkedList.swift">
+         location = "group:Stack.swift">
       </FileRef>
    </Group>
    <Group
       location = "group:Algorithms"
       name = "Algorithms">
+      <FileRef
+         location = "group:MergeSort.playground">
+      </FileRef>
       <FileRef
          location = "group:/Users/bibin.tom.joseph/Projects/Demo/DataStructures-Algorithms/Algorithms/BubbleSort.playground">
       </FileRef>

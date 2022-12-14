@@ -6,6 +6,7 @@
  */
 
 extension ArraySlice where Element: Comparable {
+    // Complexity - O(log n)
     func findViaBinarySearch(target: Element) -> Int? {
         guard !self.isEmpty else { return nil }
 
