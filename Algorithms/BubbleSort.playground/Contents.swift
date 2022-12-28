@@ -1,7 +1,7 @@
 
 
 extension Array where Element: Comparable {
-    // Complexity - O(n^2) - No space used. Since it swaps
+    // Complexity - O(n^2) - Spcae Efficiency is O(1) used for swapping
     mutating func sortUsingBubbleSort() {
         guard count > 1 else { return }
         var maxIndex = count - 1
@@ -9,10 +9,7 @@ extension Array where Element: Comparable {
         while maxIndex >= 1 {
             while index < maxIndex {
                 if self[index] > self[index + 1] {
-                    //swap
-                    let temperory = self[index]
-                    self[index] = self[index + 1]
-                    self[index + 1] = temperory
+                    swapAt(index, index + 1)
                 }
                 index += 1
             }

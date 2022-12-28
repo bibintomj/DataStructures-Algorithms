@@ -1,7 +1,7 @@
 
 
 extension Array where Element: Comparable {
-    // Complexity -
+    // Complexity - O(n log n); Space complexity O(n)
     mutating func sortUsingMergeSort() {
         guard count > 1 else { return }
         let midIndex = (endIndex - startIndex) / 2
